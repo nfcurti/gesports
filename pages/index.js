@@ -18,7 +18,7 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [faqtab, setFaqtab] = useState(1);
   const _chainIdToCompare = 1;
-  
+
   const sleep = async( ms) => {
 	  return new Promise(resolve => setTimeout(resolve, ms));
 	}
@@ -180,8 +180,8 @@ export default function Home() {
   return (
     <div className={styles.page}>
         <Head>
-          <title>Gamers Guild - 32bit NFT collection by Global Esports</title>
-          <meta name="description" content="Gamers Guild - 32bit NFT collection by Global Esports" />
+          <title>Gamers Guild - Retro Gaming Pixel Art with esports utility</title>
+          <meta name="description" content="Gamers Guild - Retro Gaming Pixel Art with esports utility" />
           <link rel="icon" href="/log.png" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Head>
@@ -503,7 +503,7 @@ export default function Home() {
                     <a href='https://instagram.com/GamersGuildXYZ'><img src='/icons8-instagram.svg'/></a>
                     <a href='https://www.youtube.com/channel/UCN79toUwMUdTrO0zivSFV9A'><img src='/icons8-youtube.svg'/></a>
                   </div><br/>
-            <p>@2021 Global Esports</p>
+            <p>@2022 Global Esports</p>
         </footer>
     </div>
   )
