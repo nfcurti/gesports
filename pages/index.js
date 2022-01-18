@@ -17,9 +17,8 @@ export default function Home() {
   const [heroTab, setHeroTab] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
   const [faqtab, setFaqtab] = useState(1);
-
-  const _chainIdToCompare = 1; //Ethereum
-  //const _chainIdToCompare = 1; //Rinkeby
+  const _chainIdToCompare = 1;
+  
   const sleep = async( ms) => {
 	  return new Promise(resolve => setTimeout(resolve, ms));
 	}
