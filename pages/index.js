@@ -395,7 +395,7 @@ export default function Home() {
                     <span style={{marginTop:'1em'}}>MD, Founder</span>
                   <div className={styles.whatis_team}>
                     <a href='https://twitter.com/mohitisraney'><img src='/icons8-twitter.svg'/></a>
-                    <a href='https://www.linkedin.com/in/rushindrasinha/'><img src='/icons8-linkedin.svg'/></a>
+                    <a href='https://www.linkedin.com/in/mohitisraney/'><img src='/icons8-linkedin.svg'/></a>
                     <a href='https://www.instagram.com/mohitisraney/'><img src='/icons8-instagram.svg'/></a>
                     <a href='https://www.youtube.com/user/mohitisraney'><img src='/icons8-youtube.svg'/></a>
                   </div>
