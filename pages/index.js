@@ -188,15 +188,15 @@ export default function Home() {
         <nav className={styles.navbar}>
             <img  src='/log.png'/>
             <ul>
-                <li><a href='#about'>About</a></li>
-                <li><a href='#roadmap'>Roadmap</a></li>
-                <li><a href='#faq'>FAQ</a></li>
-                <li><a href='#team'>Team</a></li>
+                <li><a target="_blank" href='#about'>About</a></li>
+                <li><a target="_blank" href='#roadmap'>Roadmap</a></li>
+                <li><a target="_blank" href='#faq'>FAQ</a></li>
+                <li><a target="_blank" href='#team'>Team</a></li>
                 <li className={styles.social}>
-                    <a href='https://twitter.com/GamersGuildXYZ' target="_blank"><img src='/icons8-twitter.svg'/></a>
-                    <a href='https://discord.gg/rUJEDN3Y9k' target="_blank"><img src='/icons8-discord (1).svg'/></a>
-                    <a href='https://instagram.com/GamersGuildXYZ' target="_blank"><img src='/icons8-instagram.svg'/></a>
-                    <a href='https://www.youtube.com/channel/UCN79toUwMUdTrO0zivSFV9A' target="_blank"><img src='/icons8-youtube.svg'/></a>
+                    <a target="_blank" href='https://twitter.com/GamersGuildXYZ' target="_blank"><img src='/icons8-twitter.svg'/></a>
+                    <a target="_blank" href='https://discord.gg/rUJEDN3Y9k' target="_blank"><img src='/icons8-discord (1).svg'/></a>
+                    <a target="_blank" href='https://instagram.com/GamersGuildXYZ' target="_blank"><img src='/icons8-instagram.svg'/></a>
+                    <a target="_blank" href='https://www.youtube.com/channel/UCN79toUwMUdTrO0zivSFV9A' target="_blank"><img src='/icons8-youtube.svg'/></a>
                   </li>
             </ul>
             <button onClick={ () => {
@@ -293,10 +293,10 @@ export default function Home() {
             <div className={styles.main_wrapper2}>
                 <h3>What is Global Esports?</h3>
             <div className={styles.whatis}>
-                    <a href='https://twitter.com/GlobalEsportsIn'><img src='/icons8-twitter.svg'/></a>
-                    <a href='https://discord.gg/globalesports'><img src='/icons8-discord (1).svg'/></a>
-                    <a href='https://instagram.com/GlobalEsportsIn'><img src='/icons8-instagram.svg'/></a>
-                    <a href='https://youtube.com/GlobalEsportsIn'><img src='/icons8-youtube.svg'/></a>
+                    <a target="_blank" href='https://twitter.com/GlobalEsportsIn'><img src='/icons8-twitter.svg'/></a>
+                    <a target="_blank" href='https://discord.gg/globalesports'><img src='/icons8-discord (1).svg'/></a>
+                    <a target="_blank" href='https://instagram.com/GlobalEsportsIn'><img src='/icons8-instagram.svg'/></a>
+                    <a target="_blank" href='https://youtube.com/GlobalEsportsIn'><img src='/icons8-youtube.svg'/></a>
                   </div>
                 <p>Global Esports is India’s most premium Esports Org with almost 5 years of Heritage in PC, Mobile & Console Games making us one of the longest standing orgs in the region.</p><br/><br/>
                 <p>The organization is built with the sole focus of providing a platform to talent in the esports ecosystem and creating long term sustainable career opportunities for Gamers</p>
@@ -383,10 +383,10 @@ export default function Home() {
                     <span style={{marginTop:'1em'}}>Dr Rushindra Sinha</span>
                     <span style={{marginTop:'1em'}}>CEO, Founder</span>
             <div className={styles.whatis_team}>
-                    <a href='https://twitter.com/RushindraSinha'><img src='/icons8-twitter.svg'/></a>
-                    <a href='https://www.linkedin.com/in/rushindrasinha/'><img src='/icons8-linkedin.svg'/></a>
-                    <a href='https://www.instagram.com/rushindrasinha/'><img src='/icons8-instagram.svg'/></a>
-                    <a href='https://www.youtube.com/c/RushindraSinha'><img src='/icons8-youtube.svg'/></a>
+                    <a target="_blank" href='https://twitter.com/RushindraSinha'><img src='/icons8-twitter.svg'/></a>
+                    <a target="_blank" href='https://www.linkedin.com/in/rushindrasinha/'><img src='/icons8-linkedin.svg'/></a>
+                    <a target="_blank" href='https://www.instagram.com/rushindrasinha/'><img src='/icons8-instagram.svg'/></a>
+                    <a target="_blank" href='https://www.youtube.com/c/RushindraSinha'><img src='/icons8-youtube.svg'/></a>
                   </div>
                 </div>
                 <div className={styles.race_item}>
@@ -394,10 +394,10 @@ export default function Home() {
                     <span style={{marginTop:'1em'}}>Mohit Israney</span>
                     <span style={{marginTop:'1em'}}>MD, Founder</span>
                   <div className={styles.whatis_team}>
-                    <a href='https://twitter.com/mohitisraney'><img src='/icons8-twitter.svg'/></a>
-                    <a href='https://www.linkedin.com/in/mohitisraney/'><img src='/icons8-linkedin.svg'/></a>
-                    <a href='https://www.instagram.com/mohitisraney/'><img src='/icons8-instagram.svg'/></a>
-                    <a href='https://www.youtube.com/user/mohitisraney'><img src='/icons8-youtube.svg'/></a>
+                    <a target="_blank" href='https://twitter.com/mohitisraney'><img src='/icons8-twitter.svg'/></a>
+                    <a target="_blank" href='https://www.linkedin.com/in/mohitisraney/'><img src='/icons8-linkedin.svg'/></a>
+                    <a target="_blank" href='https://www.instagram.com/mohitisraney/'><img src='/icons8-instagram.svg'/></a>
+                    <a target="_blank" href='https://www.youtube.com/user/mohitisraney'><img src='/icons8-youtube.svg'/></a>
                   </div>
                 </div>
                 <div className={styles.race_item}>
@@ -405,10 +405,10 @@ export default function Home() {
                     <span style={{marginTop:'1em'}}>Rahul Hinduja</span>
                     <span style={{marginTop:'1em'}}>COO, Founding Member</span>
                   <div className={styles.whatis_team}>
-                    <a href='https://twitter.com/RahulMHinduja'><img src='/icons8-twitter.svg'/></a>
-                    <a href='https://www.linkedin.com/in/rahulhinduja/'><img src='/icons8-linkedin.svg'/></a>
-                    <a href='https://www.instagram.com/rahulmhinduja/'><img src='/icons8-instagram.svg'/></a>
-                    <a href='https://www.youtube.com/c/rahulhinduja'><img src='/icons8-youtube.svg'/></a>
+                    <a target="_blank" href='https://twitter.com/RahulMHinduja'><img src='/icons8-twitter.svg'/></a>
+                    <a target="_blank" href='https://www.linkedin.com/in/rahulhinduja/'><img src='/icons8-linkedin.svg'/></a>
+                    <a target="_blank" href='https://www.instagram.com/rahulmhinduja/'><img src='/icons8-instagram.svg'/></a>
+                    <a target="_blank" href='https://www.youtube.com/c/rahulhinduja'><img src='/icons8-youtube.svg'/></a>
                   </div>
                 </div>
                 <div className={styles.race_item}>
@@ -416,9 +416,9 @@ export default function Home() {
                     <span style={{marginTop:'1em'}}>NicoC</span>
                     <span style={{marginTop:'1em'}}>Lead Developer</span>
                   <div className={styles.whatis_team}>
-                    <a href='https://twitter.com/CurtiNico'><img src='/icons8-twitter.svg'/></a>
-                    <a href='https://github.com/nfcurti/'><img src='/icons8-github.svg'/></a>
-                    <a href='https://www.youtube.com/channel/UCBqpagxGZpP7d-EPe8AmFkA'><img src='/icons8-youtube.svg'/></a>
+                    <a target="_blank" href='https://twitter.com/CurtiNico'><img src='/icons8-twitter.svg'/></a>
+                    <a target="_blank" href='https://github.com/nfcurti/'><img src='/icons8-github.svg'/></a>
+                    <a target="_blank" href='https://www.youtube.com/channel/UCBqpagxGZpP7d-EPe8AmFkA'><img src='/icons8-youtube.svg'/></a>
                   </div>
                 </div>
                 <div className={styles.race_item}>
@@ -426,7 +426,7 @@ export default function Home() {
                     <span style={{marginTop:'1em'}}>Juan</span>
                     <span style={{marginTop:'1em'}}>Backend Developer</span>
                   <div className={styles.whatis_team}>
-                    <a href='https://twitter.com/Macur22'><img src='/icons8-twitter.svg'/></a>
+                    <a target="_blank" href='https://twitter.com/Macur22'><img src='/icons8-twitter.svg'/></a>
 
                   </div>
                 </div>
@@ -435,7 +435,7 @@ export default function Home() {
                     <span style={{marginTop:'1em'}}>RJ</span>
                     <span style={{marginTop:'1em'}}>Artist</span>
                   <div className={styles.whatis_team}>
-                    <a href='https://twitter.com/Reeljoos'><img src='/icons8-twitter.svg'/></a>
+                    <a target="_blank" href='https://twitter.com/Reeljoos'><img src='/icons8-twitter.svg'/></a>
                   </div>
                 </div>
                 <div className={styles.race_item}>
@@ -443,8 +443,8 @@ export default function Home() {
                     <span style={{marginTop:'1em'}}>Rahul Rangnani</span>
                     <span style={{marginTop:'1em'}}>Jr Artist</span>
                   <div className={styles.whatis_team}>
-                    <a href='https://www.instagram.com/that_rangnani_draws/'><img src='/icons8-instagram.svg'/></a>
-                    <a href='https://www.linkedin.com/in/rangnanirahul/'><img src='/icons8-youtube.svg'/></a>
+                    <a target="_blank" href='https://www.instagram.com/that_rangnani_draws/'><img src='/icons8-instagram.svg'/></a>
+                    <a target="_blank" href='https://www.linkedin.com/in/rangnanirahul/'><img src='/icons8-youtube.svg'/></a>
                   </div>
                 </div>
                 <div className={styles.race_item}>
@@ -452,10 +452,10 @@ export default function Home() {
                     <span style={{marginTop:'1em'}}>Satyen Poojary</span>
                     <span style={{marginTop:'1em'}}>Strategy</span>
                   <div className={styles.whatis_team}>
-                    <a href='https://twitter.com/satyenpoojary'><img src='/icons8-twitter.svg'/></a>
-                    <a href='https://www.linkedin.com/in/satyenpoojary/'><img src='/icons8-linkedin.svg'/></a>
-                    <a href='https://www.instagram.com/satyenpoojary/'><img src='/icons8-instagram.svg'/></a>
-                    <a href='https://www.youtube.com/c/rahulhinduja'><img src='/icons8-youtube.svg'/></a>
+                    <a target="_blank" href='https://twitter.com/satyenpoojary'><img src='/icons8-twitter.svg'/></a>
+                    <a target="_blank" href='https://www.linkedin.com/in/satyenpoojary/'><img src='/icons8-linkedin.svg'/></a>
+                    <a target="_blank" href='https://www.instagram.com/satyenpoojary/'><img src='/icons8-instagram.svg'/></a>
+                    
                   </div>
                 </div>
                 <div className={styles.race_item}>
@@ -463,10 +463,10 @@ export default function Home() {
                     <span style={{marginTop:'1em'}}>Vatsal Uniyal</span>
                     <span style={{marginTop:'1em'}}>Head of Esports</span>
                   <div className={styles.whatis_team}>
-                    <a href='https://twitter.com/Nghtmre2k'><img src='/icons8-twitter.svg'/></a>
-                    <a href='https://www.linkedin.com/in/vatsal-uniyal-b79570bb/'><img src='/icons8-linkedin.svg'/></a>
-                    <a href='https://www.instagram.com/vatsaluniyal/'><img src='/icons8-instagram.svg'/></a>
-                    <a href='https://www.youtube.com/channel/UCVJsQ9wp2kB73rLNsE5U0fw'><img src='/icons8-youtube.svg'/></a>
+                    <a target="_blank" href='https://twitter.com/Nghtmre2k'><img src='/icons8-twitter.svg'/></a>
+                    <a target="_blank" href='https://www.linkedin.com/in/vatsal-uniyal-b79570bb/'><img src='/icons8-linkedin.svg'/></a>
+                    <a target="_blank" href='https://www.instagram.com/vatsaluniyal/'><img src='/icons8-instagram.svg'/></a>
+                    <a target="_blank" href='https://www.youtube.com/channel/UCVJsQ9wp2kB73rLNsE5U0fw'><img src='/icons8-youtube.svg'/></a>
                   </div>
                 </div>
                 <div className={styles.race_item}>
@@ -474,10 +474,10 @@ export default function Home() {
                     <span style={{marginTop:'1em'}}>Gary Chiu</span>
                     <span style={{marginTop:'1em'}}>Content</span>
                   <div className={styles.whatis_team}>
-                    <a href='https://twitter.com/Chiukuqchin'><img src='/icons8-twitter.svg'/></a>
-                    <a href='https://www.linkedin.com/in/vatsal-uniyal-b79570bb/'><img src='/icons8-linkedin.svg'/></a>
-                    <a href='https://www.instagram.com/officialmioken/'><img src='/icons8-instagram.svg'/></a>
-                    <a href='https://www.youtube.com/channel/UCVJsQ9wp2kB73rLNsE5U0fw'><img src='/icons8-youtube.svg'/></a>
+                    <a target="_blank" href='https://twitter.com/Chiukuqchin'><img src='/icons8-twitter.svg'/></a>
+                    <a target="_blank" href='https://www.linkedin.com/in/gary-chiu-95b308111/'><img src='/icons8-linkedin.svg'/></a>
+                    <a target="_blank" href='https://www.instagram.com/officialmioken/'><img src='/icons8-instagram.svg'/></a>
+                    <a target="_blank" href='https://www.youtube.com/channel/UCVJsQ9wp2kB73rLNsE5U0fw'><img src='/icons8-youtube.svg'/></a>
                   </div>
                 </div>
                 <div className={styles.race_item}>
@@ -485,10 +485,10 @@ export default function Home() {
                     <span style={{marginTop:'1em'}}>Jaideep Sood</span>
                     <span style={{marginTop:'1em'}}>Operations</span>
                   <div className={styles.whatis_team}>
-                    <a href='https://twitter.com/sood_jaideep'><img src='/icons8-twitter.svg'/></a>
-                    <a href='https://www.linkedin.com/in/jaideep-s-27261436/'><img src='/icons8-linkedin.svg'/></a>
-                    <a href='https://www.instagram.com/Soodjaideep/'><img src='/icons8-instagram.svg'/></a>
-                    <a href='https://www.youtube.com/c/GEJaideepSood'><img src='/icons8-youtube.svg'/></a>
+                    <a target="_blank" href='https://twitter.com/sood_jaideep'><img src='/icons8-twitter.svg'/></a>
+                    <a target="_blank" href='https://www.linkedin.com/in/jaideep-s-27261436/'><img src='/icons8-linkedin.svg'/></a>
+                    <a target="_blank" href='https://www.instagram.com/Soodjaideep/'><img src='/icons8-instagram.svg'/></a>
+                    <a target="_blank" href='https://www.youtube.com/c/GEJaideepSood'><img src='/icons8-youtube.svg'/></a>
                   </div>
                 </div>
             </div>
@@ -498,10 +498,10 @@ export default function Home() {
         <footer className={styles.footer}>
             <img  src='/log.png'/><br/>
             <div>
-                    <a href='https://twitter.com/GamersGuildXYZ'><img src='/icons8-twitter.svg'/></a>
-                    <a href='https://discord.gg/rUJEDN3Y9k'><img src='/icons8-discord (1).svg'/></a>
-                    <a href='https://instagram.com/GamersGuildXYZ'><img src='/icons8-instagram.svg'/></a>
-                    <a href='https://www.youtube.com/channel/UCN79toUwMUdTrO0zivSFV9A'><img src='/icons8-youtube.svg'/></a>
+                    <a target="_blank" href='https://twitter.com/GamersGuildXYZ'><img src='/icons8-twitter.svg'/></a>
+                    <a target="_blank" href='https://discord.gg/rUJEDN3Y9k'><img src='/icons8-discord (1).svg'/></a>
+                    <a target="_blank" href='https://instagram.com/GamersGuildXYZ'><img src='/icons8-instagram.svg'/></a>
+                    <a target="_blank" href='https://www.youtube.com/channel/UCN79toUwMUdTrO0zivSFV9A'><img src='/icons8-youtube.svg'/></a>
                   </div><br/>
             <p>@2022 Global Esports</p>
         </footer>
