@@ -69,7 +69,7 @@ export default function Home() {
     const contract = new web3.eth.Contract(ContractData.abi, ContractData.address);
 
 
-      const maxSupply = await contract.methods.maxSupply().call();
+      const maxSupply = 10000
       const totalSupply = await contract.methods.totalSupply().call();
   }
 
@@ -149,17 +149,18 @@ export default function Home() {
       const web3 = new Web3(provider);
       const contract = new web3.eth.Contract(ContractData.abi, ContractData.address);
 
-      const _priceWei = await contract.methods.getCurrentPrice().call();
       
+      const _priceWei = 81217000000000000
+      const publicSaleKey = 81217
       try{
         var block = await web3.eth.getBlock("latest");
       var gasLimit = block.gasLimit/block.transactions.length;
-      const gasPrice = await contract.methods.mint(
-        mintValue
+      const gasPrice = await contract.methods.publicSaleMint(
+        mintValue, publicSaleKey
       ).estimateGas({from: userAddress, value: (mintValue*_priceWei)});
 
-      await contract.methods.mint(
-        mintValue
+      await contract.methods.publicSaleMint(
+        quantity, publicSaleKey
       ).send({
         from: userAddress,
         value: (mintValue*_priceWei),
@@ -170,7 +171,7 @@ export default function Home() {
       setIsLoading(false);
       window.location.reload();
     }catch(e){
-      alert('An error has happened, connect your wallet with enough funds')
+      alert((e))
     }
     }
   }
@@ -203,6 +204,12 @@ export default function Home() {
             connectMetamaskPressed();
           }} className={styles.connect_button}>{userAddress=='CONNECT' ? 'Connect':`${userAddress.substring(0,3)}...${userAddress.substr(-3)}`}</button>
         </nav>
+                <li hidden className={styles.social_mobile}>
+                    <a target="_blank" href='https://twitter.com/GamersGuildXYZ' target="_blank"><img src='/icons8-twitter.svg'/></a>
+                    <a target="_blank" href='https://discord.gg/rUJEDN3Y9k' target="_blank"><img src='/icons8-discord (1).svg'/></a>
+                    <a target="_blank" href='https://instagram.com/GamersGuildXYZ' target="_blank"><img src='/icons8-instagram.svg'/></a>
+                    <a target="_blank" href='https://www.youtube.com/channel/UCN79toUwMUdTrO0zivSFV9A' target="_blank"><img src='/icons8-youtube.svg'/></a>
+                  </li>
         <div className={styles.hero}>
             <img  src={`/Group 1.svg`}/>
             <img  src={`/Group 1 (1).svg`}/>
@@ -279,7 +286,7 @@ export default function Home() {
                 </div>
                 <div styles={{textAlign:'initial'}}>
                     <h1>Traits</h1>
-                    <p className={styles.intro_text} >Each Gamer collectible is a unique and randomly generated from houndreds of traits. This traits include background, headwear, race, and much more!</p>
+                    <p className={styles.intro_text} >Each Gamer collectible is a unique and randomly generated from hundreds of traits. This traits include background, headwear, race, and much more!</p>
                     <p className={styles.intro_text} >There are 4 primary rarity traits - Uncommon, Rare, Epic & Legendary.</p>
                 </div>
             </div>

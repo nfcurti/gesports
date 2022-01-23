@@ -14,6 +14,13 @@
   src: url(/nokiafc22.ttf);
 }
 
+
+.social_mobile{
+  display: none;
+    align-items: center;
+    justify-content: center;
+}
+
 .whatis{
     margin-bottom:1em;
         gap: 1em;
@@ -2972,7 +2979,6 @@ margin-right: 0;
   }
 }
 
-
 .hero{
     display:flex;
     margin:auto;
@@ -3906,4 +3912,14 @@ flex-basis: 50%
         width:20%;
 
     }
+    
+
+.social_mobile{
+  display: flex;
+  gap:1em;
+  img{
+    width: 3em
+  }
+}
+
 }
