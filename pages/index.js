@@ -376,6 +376,13 @@ export default function Home() {
                   <p>We will be revealing each and everyone of the NFTs at the time of sellout so we can guarantee a fair mint to everyone instead of having acknowledgable users snipe the rarest ones.</p>
                   :''}
                 </div>
+                <div onClick={() => {if(faqtab!=7){setFaqtab(7)}else{setFaqtab(0)}}} className={styles.faq_wrapper}>
+                  <h4>What is ERC721A?<span>{faqtab!=7 ? '+':'-'}</span></h4>
+                  {faqtab==7 ?
+                  <p>Our Contract is updated and now live and ERC 721A compliant - For those who don't know what that means, is that it doesn't matter if you mint 1 or 2 or 5 or 10 or 20 Gamers Guild NFT you will pay almost the SAME gas as if you were minting just 1.<br/><br/>We would like to thank everyone over at the Azuki Project and their Dev team for an insane technological breakthrough that has enabled us to all benefit from this today and for paving the way for future projects to come - be sure to go check out https://azuki.com/erc721a to learn more!</p>
+                  
+                  :''}
+                </div>
                 
             </div>
           </div>
