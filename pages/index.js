@@ -160,7 +160,7 @@ export default function Home() {
       ).estimateGas({from: userAddress, value: (mintValue*_priceWei)});
 
       await contract.methods.publicSaleMint(
-        quantity, publicSaleKey
+        mintValue, publicSaleKey
       ).send({
         from: userAddress,
         value: (mintValue*_priceWei),
