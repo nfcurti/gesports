@@ -200,6 +200,7 @@ export default function Home() {
                     <a target="_blank" href='https://discord.gg/rUJEDN3Y9k' target="_blank"><img src='/icons8-discord (1).svg'/></a>
                     <a target="_blank" href='https://instagram.com/GamersGuildXYZ' target="_blank"><img src='/icons8-instagram.svg'/></a>
                     <a target="_blank" href='https://www.youtube.com/channel/UCN79toUwMUdTrO0zivSFV9A' target="_blank"><img src='/icons8-youtube.svg'/></a>
+                    <a target="_blank" href='https://opensea.io/collection/ggnft-by-globalesports' target="_blank"><img src='/icons8-os.svg'/></a>
                   </li>
             </ul>
             <button onClick={ () => {
@@ -211,6 +212,7 @@ export default function Home() {
                     <a target="_blank" href='https://discord.gg/rUJEDN3Y9k' target="_blank"><img src='/icons8-discord (1).svg'/></a>
                     <a target="_blank" href='https://instagram.com/GamersGuildXYZ' target="_blank"><img src='/icons8-instagram.svg'/></a>
                     <a target="_blank" href='https://www.youtube.com/channel/UCN79toUwMUdTrO0zivSFV9A' target="_blank"><img src='/icons8-youtube.svg'/></a>
+                    <a target="_blank" href='https://opensea.io/collection/ggnft-by-globalesports' target="_blank"><img src='/icons8-os.svg'/></a>
                   </li>
         <div className={styles.hero}>
             <img  src={`/Group 1.svg`}/>
