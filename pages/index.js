@@ -173,7 +173,7 @@ export default function Home() {
       setIsLoading(false);
       window.location.reload();
     }catch(e){
-      alert((e))
+      alert(JSON.stringify(e))
     }
     }
   }
