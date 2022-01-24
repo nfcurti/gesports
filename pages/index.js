@@ -228,6 +228,15 @@ export default function Home() {
 
             </p>
         </div>
+        <div className={styles.main_mint}>
+          <h1>MINT YOUR OWN</h1>
+            <span>{10000-totalMinted} Remaining</span>
+          <p className={styles.main_mint_p}>After countdown ends, all 10,000 characters will be available to mint right away</p>
+          
+            <Countdown date={1643040737000} renderer={renderer}/>
+            
+
+        </div>
         <div id='about' className={styles.main}>
             <div className={styles.main_wrapper}>
                 <h1>Gamers Guild NFT</h1>
@@ -241,15 +250,6 @@ export default function Home() {
             <img src={`/Classes/nft-8204_Undead.png`}/>
             <img src={`/Classes/nft-9583_Orc.png`}/>
             <img src={`/Demi Gods/GG NFT  (10).jpg`}/>
-        </div>
-        <div className={styles.main_mint}>
-        	<h1>MINT YOUR OWN</h1>
-            <span>{10000-totalMinted} Remaining</span>
-        	<p className={styles.main_mint_p}>After countdown ends, all 10,000 characters will be available to mint right away</p>
-        	
-            <Countdown date={1643040737000} renderer={renderer}/>
-            
-
         </div>
         <div id='rarity' className={styles.intro}>
         	<h1>Classes</h1>
