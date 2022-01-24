@@ -14,6 +14,7 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   const [heroIndex, setHeroIndex] = useState(1);
   const [mintAmount, setMintAmount] = useState(1);
+  const [totalMinted, setTotalMinted] = useState(0);
   const [heroTab, setHeroTab] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
   const [faqtab, setFaqtab] = useState(1);
@@ -71,6 +72,7 @@ export default function Home() {
 
       const maxSupply = 10000
       const totalSupply = await contract.methods.totalSupply().call();
+      setTotalMinted(totalSupply)
   }
 
       const requestAccountMetamask = async() => {
@@ -215,9 +217,9 @@ export default function Home() {
             <img  src={`/Group 1 (1).svg`}/>
             <p>
 {heroTab ? 
-            <ReactTypingEffect speed={100} eraseSpeed={30} eraseDelay={1500}  text={["Hey there traveler, want to learn about gamers guild?"]}/>
+            <ReactTypingEffect speed={100} eraseSpeed={30} eraseDelay={1500}  text={["Mint is LIVE now!"]}/>
             :
-            <ReactTypingEffect speed={100} eraseSpeed={30} text={["Mint will commence soon!"]}/>
+            <ReactTypingEffect speed={100} eraseSpeed={30} text={["Mint is LIVE now!"]}/>
 
 }
               </p>
@@ -242,7 +244,7 @@ export default function Home() {
         </div>
         <div className={styles.main_mint}>
         	<h1>MINT YOUR OWN</h1>
-            <span>10,000 Remaining</span>
+            <span>{10000-totalMinted} Remaining</span>
         	<p className={styles.main_mint_p}>After countdown ends, all 10,000 characters will be available to mint right away</p>
         	
             <Countdown date={1643040737000} renderer={renderer}/>
